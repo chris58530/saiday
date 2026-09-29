@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}｜{{ site.title }}</title>
+<style>
+  :root { color-scheme: light dark; --fg: #111; --muted: #6b6b6b; --line: #e3e3e3; --bg: #fff; --link: #2463eb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg: #f2f2f2; --muted: #9a9a9a; --line: #2c2c2c; --bg: #000; --link: #6ea8fe; }
+  }
+  body { background: var(--bg); color: var(--fg); margin: 0;
+         font: 17px/1.75 -apple-system, "PingFang TC", "Noto Sans TC", system-ui, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  h1 { font-size: 1.7rem; margin: 0 0 .5rem; letter-spacing: .01em; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 .6rem; }
+  a { color: var(--link); }
+  ul { padding-left: 1.2rem; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0 1.25rem; }
+  footer { color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+{{ content }}
+<hr>
+<footer>{{ site.title }}｜<a href="{{ '/' | relative_url }}">目錄</a></footer>
+</main>
+</body>
+</html>

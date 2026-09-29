@@ -1,0 +1,7 @@
+title: 曬日子
+description: 把生活記錄成社群貼文的 iOS app
+# 給 App Store Connect 用的公開政策頁，發佈在公開 repo chris58530/saiday（scripts/publish-site.sh 同步）。
+# 圖片提示詞與上架清單是開發文件，不發佈。
+exclude:
+  - photos.md
+  - app-store-checklist.md
