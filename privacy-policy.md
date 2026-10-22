@@ -8,7 +8,7 @@ title: 隱私權政策
 更新日期：2026 年 10 月 21 日
 
 {% comment %}
-這份文件與 app 內「設定 › 隱私權政策」的內文相同（`FameSim/Views/LegalViews.swift`），改哪一邊都要一起改，改完跑 `scripts/publish-site.sh` 同步到公開網站 https://chris58530.github.io/saiday/ 。這段是 Liquid 註解，不會出現在發佈出去的網頁原始碼裡。
+這份文件與 app 內「設定 › 隱私權政策」的內文相同（`FameSim/Views/LegalViews.swift`），改哪一邊都要一起改，改完跑 `scripts/publish-site.sh` 同步到公開網站 https://saidayapp.web.app/privacy-policy （舊網址 GitHub Pages 一起同步）。這段是 Liquid 註解，不會出現在發佈出去的網頁原始碼裡。
 {% endcomment %}
 
 ## 這份政策說什麼
